@@ -36,5 +36,5 @@ public class Fumador extends Thread{
             }
         }
 
-    }
-}
+    }//fin run.
+}//FIN CLASE.

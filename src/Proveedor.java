@@ -2,7 +2,6 @@ import java.util.concurrent.Semaphore;
 
 public class Proveedor extends Thread{
     private Mesa mesa;
-    private String[] ingredientes;
     private Semaphore semaforo;
     private Semaphore semaforo1;
     private Semaphore semaforo2;
@@ -10,7 +9,6 @@ public class Proveedor extends Thread{
 
     public Proveedor(Mesa m,Semaphore s, Semaphore s1, Semaphore s2, Semaphore s3 ){
         mesa=m;
-        ingredientes=null;
         semaforo=s;
         semaforo1=s1;
         semaforo2=s2;
